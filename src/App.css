@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,31 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App{
+  justify-content: center;
+  /* justify-items: center; */
+  margin: 2rem;
 }
+
+body{
+  padding: 0;
+  margin: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:medium;
+  font-family: 'Courier New', Courier, monospace;
+}  
+
+@media (orientation: portrait), (max-height: 400px) {
+  .App {
+    color: Red;
+  }
+}
+@media (orientation: landscape) and (max-width: 200px) {
+  .App {
+    color: blue;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
