@@ -1,6 +1,6 @@
 
 import axios from 'axios'
 const instance = axios.create({
-    baseURL: "http://localhost:8001"
+    baseURL: "https://back-tin.herokuapp.com/"  //i repplaced my backend api with that of heroku server
 })
 export default instance;
